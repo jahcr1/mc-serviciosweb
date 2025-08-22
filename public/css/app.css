@@ -1,0 +1,155 @@
+/* ========================
+   PALETA DE COLORES
+   ======================== */
+:root {
+    --c1: #001524;
+    --c2: #15616D;
+    --c3: #FFECD1;
+    --c4: #FF7D00;
+    --c5: #78290F;
+
+    --text-light: #66e8d9;
+    --text-dark: #eaeaea;
+}
+
+/* ========================
+   ESTILOS BASE
+   ======================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+
+    background-color: var(--c1);
+    color: var(--text-light);
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--c3);
+}
+
+/* ========================
+   HEADER + NAV
+   ======================== */
+header {
+    height: 80px;
+    background-color: #000f1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+header img {
+    width: 64px;
+    height: 64px;
+}
+
+/* Navegación */
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+
+header nav ul li a.nav-link {
+    color: var(--text-light);
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Hover y activo */
+header nav ul li a.nav-link:hover {
+    background-color: #00243d;
+}
+
+header nav ul li a.active {
+    background-color: var(--c2);
+    color: white;
+    font-weight: 500;
+}
+
+nav div.navbar-collapse {
+    background-color: #000f1a;
+    border-radius: 12px;
+
+
+}
+
+/* ========================
+   MAIN
+   ======================== */
+main {
+    flex: 1; /* el contenido ocupa todo el espacio disponible */
+    margin: 32px 0;
+    padding: 0 16px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+}
+
+/* ========================
+   FOOTER
+   ======================== */
+footer {
+    background-color: var(--c1);
+    color: var(--text-dark);
+    text-align: center;
+    padding: 16px 0;
+    margin-top: auto;
+    border-top: 1px solid #00243d;
+    font-size: 14px;
+}
+
+/* Navbar collapse en mobile */
+@media (max-width: 991.98px) { /* breakpoint lg de Bootstrap */
+  #mainNavbar {
+    background-color: #000f1a; /* mismo que header */
+    padding: 12px;
+    border-radius: 8px;
+    position: absolute;
+    top: 55px; /* debajo del header */
+    right: -10px;
+    z-index: 1050;
+    width: auto;
+    min-width: 200px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  }
+
+  #mainNavbar ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .navbar-toggler {
+    z-index: 1100; /* aseguro que quede por encima del menú */
+  }
+}

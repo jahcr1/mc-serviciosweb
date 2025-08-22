@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@include('layouts.header')
 
 @section('title', 'Contacto')
 

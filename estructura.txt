@@ -1,0 +1,6 @@
+Listado de rutas de carpetas para el volumen Windows
+El n£mero de serie del volumen es 0000001A 421C:71D8
+C:\XAMPP\HTDOCS\PROYECTOSWEB\LARAVEL\MCWEBSERVICES\-F
+Ruta de acceso no v lida: \XAMPP\HTDOCS\PROYECTOSWEB\LARAVEL\MCWEBSERVICES\-F
+No existe ninguna subcarpeta 
+

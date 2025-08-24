@@ -17,7 +17,7 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card h-100 text-center border-0 shadow-sm">
-                        <img src="/imgs/services/service1.jpg" class="card-img-top" alt="Servicio 1">
+                        <img src="/imgs/services/service11.jpg" class="card-img-top" alt="Servicio 1">
                         <div class="card-body">
                             <h5 class="card-title">Diseño Web</h5>
                             <p class="card-text">Creamos sitios modernos, responsivos y atractivos para tu negocio.</p>
@@ -26,7 +26,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card h-100 text-center border-0 shadow-sm">
-                        <img src="/imgs/services/service2.jpg" class="card-img-top" alt="Servicio 2">
+                        <img src="/imgs/services/service13.jpg" class="card-img-top" alt="Servicio 2">
                         <div class="card-body">
                             <h5 class="card-title">Marketing Digital</h5>
                             <p class="card-text">Estrategias efectivas para mejorar tu presencia online y aumentar ventas.</p>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card h-100 text-center border-0 shadow-sm">
-                        <img src="/imgs/services/service3.jpg" class="card-img-top" alt="Servicio 3">
+                        <img src="/imgs/services/service8.jpg" class="card-img-top" alt="Servicio 3">
                         <div class="card-body">
                             <h5 class="card-title">E-commerce</h5>
                             <p class="card-text">Desarrollamos tiendas online seguras, rápidas y fáciles de gestionar.</p>
@@ -47,11 +47,11 @@
     </section>
 
     <!-- NOSOTROS -->
-    <section class="about py-5 bg-dark text-light">
+    <section class="about py-5 text-light">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/images/about.jpg" class="img-fluid rounded shadow" alt="Nosotros">
+                    <img src="/imgs/about/mclogoSF1.png" class="img-fluid rounded" alt="Nosotros">
                 </div>
                 <div class="col-md-6">
                     <h2>Sobre Nosotros</h2>
@@ -67,27 +67,27 @@
         <div class="container">
             <h2 class="text-center mb-5">Proyectos Recientes</h2>
             <div class="row g-4">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="card border-0 shadow-sm">
-                        <img src="/images/project1.jpg" class="card-img-top" alt="Proyecto 1">
+                        <img src="/imgs/portfolio/porfoliofront.png" class="card-img-top" alt="Proyecto 1">
                         <div class="card-body">
-                            <h5 class="card-title">Proyecto 1</h5>
-                            <p class="card-text">Sitio corporativo desarrollado con Laravel y Bootstrap.</p>
+                            <h5 class="card-title">Webs personales</h5>
+                            <p class="card-text">Sitio web personal tipo portfolio corporativo, desarrollado con Laravel 12 y diversas tecnologías.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="card border-0 shadow-sm">
-                        <img src="/images/project2.jpg" class="card-img-top" alt="Proyecto 2">
+                        <img src="/imgs/portfolio/kudayfront.png" class="card-img-top" alt="Proyecto 2">
                         <div class="card-body">
                             <h5 class="card-title">Proyecto 2</h5>
-                            <p class="card-text">Tienda online completa con sistema de pagos integrado.</p>
+                            <p class="card-text">Tienda online completa con sistema de pagos integrado (Mercado Pago), con panel administrativo full.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-12">
                     <div class="card border-0 shadow-sm">
-                        <img src="/images/project3.jpg" class="card-img-top" alt="Proyecto 3">
+                        <img src="/imgs/portfolio/fattofront.png" class="card-img-top" alt="Proyecto 3">
                         <div class="card-body">
                             <h5 class="card-title">Proyecto 3</h5>
                             <p class="card-text">Landing page para marketing digital con animaciones modernas.</p>

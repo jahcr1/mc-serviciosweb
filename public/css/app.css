@@ -27,7 +27,6 @@ html, body {
     flex-direction: column;
 }
 
-
 body {
 
     background-color: var(--c1);
@@ -38,7 +37,25 @@ body {
     line-height: 1.6;
 }
 
-/* Enlaces */
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: var(--c3);
+}
+
+section p {
+    font-size: 1.1rem;
+    color: var(--text-light);
+}
+
+/* ================================= */
+/* =====    Enlaces o links     ==== */
+/* ================================= */
 a {
     text-decoration: none;
     color: inherit;
@@ -49,12 +66,42 @@ a:hover {
     color: var(--c3);
 }
 
+/* ============================================= */
+/* =====    Cards Servicios y Portfolio     ==== */
+/* ============================================= */
+
+.card {
+    background-color: var(--c2);
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.card img {
+
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+.card h5.card-title {
+    margin-top: 10px;
+    color: var(--c3);
+    font-weight: 500;
+}
+
+
 /* ========================
    HEADER + NAV
    ======================== */
 header {
     height: 80px;
-    background-color: #000f1a;
+    background-color: #02233a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +116,6 @@ header img {
     height: 64px;
 }
 
-/* Navegación */
 header nav ul {
     display: flex;
     list-style: none;
@@ -85,17 +131,17 @@ header nav ul li a.nav-link {
 
 /* Hover y activo */
 header nav ul li a.nav-link:hover {
-    background-color: #00243d;
+    background-color: var(--c2);
 }
 
 header nav ul li a.active {
-    background-color: var(--c2);
+    background-color: var(--c1);
     color: white;
     font-weight: 500;
 }
 
 nav div.navbar-collapse {
-    background-color: #000f1a;
+    background-color: #02233a;
     border-radius: 12px;
 
 
@@ -129,30 +175,49 @@ footer {
     font-size: 14px;
 }
 
-/* Navbar collapse en mobile */
-@media (max-width: 991.98px) { /* breakpoint lg de Bootstrap */
-  #mainNavbar {
-    background-color: #000f1a; /* mismo que header */
-    padding: 12px;
-    border-radius: 8px;
-    position: absolute;
-    top: 55px; /* debajo del header */
-    right: -10px;
-    z-index: 1050;
-    width: auto;
-    min-width: 200px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-  }
 
-  #mainNavbar ul {
-    flex-direction: column;
-    gap: 8px;
-  }
 
-  .navbar-toggler {
-    z-index: 1100; /* aseguro que quede por encima del menú */
-  }
-}
+/* ========================
+   SECCIONES GENERALES
+   ======================== */
+
+   /* Navbar collapse en mobile */
+   @media (max-width: 991.98px) { /* breakpoint lg de Bootstrap */
+     #mainNavbar {
+       background-color: #000f1a; /* mismo que header */
+       padding: 12px;
+       border-radius: 8px;
+       position: absolute;
+       top: 55px; /* debajo del header */
+       right: -10px;
+       z-index: 1050;
+       width: auto;
+       min-width: 200px;
+       box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+     }
+
+     #mainNavbar ul {
+       flex-direction: column;
+       gap: 8px;
+     }
+
+     .navbar-toggler {
+       z-index: 1100; /* aseguro que quede por encima del menú */
+     }
+   }
+
+   /* RESPONSIVE */
+   @media (max-width: 768px) {
+       .hero h1 {
+           font-size: 2rem;
+       }
+
+       .hero p {
+           font-size: 1rem;
+       }
+   }
+
+
 
 /* ========================
    HERO SECTION
@@ -208,51 +273,24 @@ footer {
     box-shadow: 0 10px 20px rgba(0,0,0,0.5);
 }
 
+
 /* ========================
-   SECCIONES GENERALES
+   about SECTION
    ======================== */
-section {
-    padding: 80px 0;
-}
 
-section h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    color: var(--c3);
-}
-
-section p {
-    font-size: 1.1rem;
-    color: var(--text-light);
-}
-
-/* Cards modernas para servicios y portfolio */
-.card {
-    border: none;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card img {
-    transition: transform 0.3s ease;
-}
-
-
-
-.card:hover img {
-    transform: scale(1.05);
-}
-
-/* Sección sobre nosotros */
 .about img {
     border-radius: 12px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.4);
 }
 
-/* CTA final */
+
+/* ========================
+   portfolio SECTION
+   ======================== */
+
+/* ========================
+   contact SECTION
+   ======================== */
 .contact-cta {
     background-color: var(--c1);
     color: var(--text-dark);
@@ -274,13 +312,3 @@ section p {
     box-shadow: 0 10px 20px rgba(0,0,0,0.5);
 }
 
-/* RESPONSIVE */
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2rem;
-    }
-
-    .hero p {
-        font-size: 1rem;
-    }
-}

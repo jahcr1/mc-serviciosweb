@@ -1,4 +1,5 @@
 @include('layouts.header')
+@include('layouts.nav-bar')
 
 <main>
     <!-- HERO SECTION -->
@@ -6,7 +7,7 @@
         <div class="container text-light">
             <h1 class="display-4 fw-light">Bienvenido a {{ config('app.name') }}</h1>
             <p class="lead mb-4">Desarrollo web profesional para hacer crecer tu negocio</p>
-            <a href="{{ route('contact') }}" class="btn btn-lg btn-info shadow-lg">Solicita tu presupuesto</a>
+            <a href="/contact" class="btn btn-lg btn-info shadow-lg">Solicita tu presupuesto</a>
         </div>
     </section>
 

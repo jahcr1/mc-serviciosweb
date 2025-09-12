@@ -111,6 +111,7 @@ header {
     box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
+/******  logo  *****/
 header img {
     width: 64px;
     height: 64px;
@@ -127,6 +128,9 @@ header nav ul li a.nav-link {
     padding: 10px 18px;
     border-radius: 8px;
     transition: all 0.3s ease;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-wrap: nowrap;
 }
 
 /* Hover y activo */
@@ -135,7 +139,7 @@ header nav ul li a.nav-link:hover {
 }
 
 header nav ul li a.active {
-    background-color: var(--c1);
+    background-color: #001524e1;;
     color: white;
     font-weight: 500;
 }
@@ -184,11 +188,11 @@ footer {
    /* Navbar collapse en mobile */
    @media (max-width: 991.98px) { /* breakpoint lg de Bootstrap */
      #mainNavbar {
-       background-color: #000f1a; /* mismo que header */
+       background-color: #000f1a96; /* mismo que header */
        padding: 12px;
        border-radius: 8px;
        position: absolute;
-       top: 55px; /* debajo del header */
+       top: 70px; /* debajo del header */
        right: -10px;
        z-index: 1050;
        width: auto;

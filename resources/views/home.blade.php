@@ -3,7 +3,7 @@
 
 <main>
     <!-- HERO SECTION -->
-    <section class="hero d-flex align-items-center justify-content-center text-center" style="background-image: url('/imgs/hero/hero1.jpg'); background-size: cover; background-position: center; height: 90vh;">
+    <section class="hero d-flex align-items-center justify-content-center text-center" style="background-image: url('/imgs/hero/hero1.jpg'); background-size: cover; background-position: center; height: 70vh;">
         <div class="container text-light">
             <h1 class="display-4 fw-light">Bienvenido a {{ config('app.name') }}</h1>
             <p class="lead mb-4">Desarrollo web profesional para hacer crecer tu negocio</p>

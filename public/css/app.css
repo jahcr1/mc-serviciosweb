@@ -2,11 +2,12 @@
    PALETA DE COLORES
    ======================== */
 :root {
-    --c1: #001524;
+    --c1: #011f35;
     --c2: #15616D;
     --c3: #FFECD1;
     --c4: #FF7D00;
     --c5: #78290F;
+    --c6: #032e4d;
 
     --text-light: #66e8d9;
     --text-dark: #eaeaea;
@@ -101,7 +102,7 @@ a:hover {
    ======================== */
 header {
     height: 80px;
-    background-color: #02233a;
+    background-color: #00243d;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -120,7 +121,7 @@ header img {
 header nav ul {
     display: flex;
     list-style: none;
-    gap: 12px;
+    gap: 15px;
 }
 
 header nav ul li a.nav-link {

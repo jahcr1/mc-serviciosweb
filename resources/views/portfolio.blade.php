@@ -4,9 +4,9 @@
 <main>
     <!-- HERO -->
     <section class="hero d-flex align-items-center justify-content-center text-center text-light"
-        style="background-image: url('/imgs/hero/portfolio-hero.jpg'); background-size: cover; background-position: center; height: 50vh;">
+        style="background-image: url('/imgs/portfolio/portfolio0.png') !important; background-size: cover; background-position: center; height: 30vh; border-radius: 8px;">
         <div class="container">
-            <h1 class="display-4 fw-bold">Proyectos Realizados</h1>
+            <h1 class="display-4 fw-bold">Sitios Realizados</h1>
             <p class="lead">Algunos de los trabajos que hemos desarrollado para nuestros clientes</p>
         </div>
     </section>

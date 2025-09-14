@@ -4,7 +4,7 @@
 <main>
     <!-- HERO -->
     <section class="hero d-flex align-items-center justify-content-center text-center text-light"
-        style="background-image: url('/imgs/hero/gotas.jpg') !important; background-size: cover; background-position: center; height: 20vh; border-radius: 8px;">
+        style="background-image: url('/imgs/services/servicios1.png') !important; background-size: cover; background-position: center; height: 30vh; border-radius: 8px;">
         <div class="container">
             <h1 class="display-4 fw-bold">Nuestros Servicios MC</h1>
             <p class="lead fw-semibold">Soluciones digitales para hacer crecer tu negocio</p>

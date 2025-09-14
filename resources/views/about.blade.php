@@ -4,7 +4,7 @@
 <main>
     <!-- HERO -->
     <section class="hero d-flex align-items-center justify-content-center text-center text-light"
-        style="background-image: url('/imgs/hero/about-hero.jpg'); background-size: cover; background-position: center; height: 50vh;">
+        style="background-image: url('/imgs/about/about2.png') !important; background-size: cover; background-position: center; height: 30vh;">
         <div class="container">
             <h1 class="display-4 fw-bold">Sobre Nosotros</h1>
             <p class="lead">Un equipo apasionado por el desarrollo web y la innovación digital</p>
